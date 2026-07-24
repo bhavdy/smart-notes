@@ -1,0 +1,35 @@
+# ===========================
+# Smart Notes — .gitignore
+# ===========================
+
+# --- Node / Frontend ---
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+
+# --- Java / Backend ---
+backend/target/
+backend/.mvn/
+backend/*.class
+backend/*.jar
+backend/*.war
+*.log
+
+# --- Environment ---
+.env
+.env.*
+!.env.example
+
+# --- IDE ---
+.idea/
+.vscode/
+*.iml
+*.suo
+*.user
+.DS_Store
+Thumbs.db
+
+# --- Docker ---
+*.override.yml
